@@ -17,7 +17,7 @@ const create = () => {
     reducer(history),
     {
       auth: {
-        token,
+        token: token,
         loading: false,
         error: null,
       },
