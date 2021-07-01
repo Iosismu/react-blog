@@ -26,7 +26,7 @@ const create = () => {
       applyMiddleware(sagaMiddleware, routerMiddleware(history))
     )
   );
-
+  // store에 rootSage 연결
   sagaMiddleware.run(rootSaga);
 
   return store;
