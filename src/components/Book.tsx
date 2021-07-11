@@ -38,7 +38,7 @@ const Book: React.FC<BookProps> = ({
         {moment(createdAt).format("MM-DD-YYYY hh:mm a")}
       </div>
       <div className={styles.tooltips}>
-        <Tooltip title={url}>
+        {/* <Tooltip title={url}>
           <a
             href={url}
             rel="noreferrer"
@@ -60,7 +60,7 @@ const Book: React.FC<BookProps> = ({
             icon={<EditOutlined />}
             className={styles.button_edit}
           />
-        </Tooltip>
+        </Tooltip> */}
         <Tooltip title="Delete">
           <Button
             size="small"
